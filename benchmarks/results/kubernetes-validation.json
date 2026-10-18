@@ -1,0 +1,14 @@
+{
+  "kubernetes_version": "v1.37.0",
+  "cluster": "kind-inference-lab",
+  "gpu_inventory": "simulated; no physical GPU on this Mac",
+  "expected_node": "inference-lab-worker2",
+  "scheduled_node": "inference-lab-worker2",
+  "insufficient_memory_rejection": "0/3 nodes are available: 1 Insufficient inference.example.com/gpu, 1 insufficient free GPU memory, 1 node(s) had untolerated taint(s). preemption: 0/3 nodes are available: 1 Preemption is not helpful for scheduling, 2 No preemption victims found for incoming pod.",
+  "gateway_generation": {
+    "id": "58383dfe130b4c519ec294bd3b8e09df",
+    "text": "etet",
+    "tokens": 4
+  },
+  "worker_backend": "reference"
+}

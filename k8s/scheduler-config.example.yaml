@@ -1,0 +1,19 @@
+# Install as kube-scheduler configuration only on a cluster where you control
+# kube-scheduler. The control plane must reach gpu-scheduler-extender:8002.
+apiVersion: kubescheduler.config.k8s.io/v1
+kind: KubeSchedulerConfiguration
+clientConnection:
+  kubeconfig: /etc/kubernetes/scheduler.conf
+profiles:
+  - schedulerName: default-scheduler
+extenders:
+  - urlPrefix: http://gpu-scheduler-extender:8002
+    filterVerb: filter
+    prioritizeVerb: prioritize
+    weight: 1
+    enableHTTPS: false
+    nodeCacheCapable: false
+    ignorable: false
+    managedResources:
+      - name: nvidia.com/gpu
+        ignoredByScheduler: false

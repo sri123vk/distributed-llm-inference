@@ -1,0 +1,2356 @@
+{
+  "model": "models/smollm2-135m-instruct",
+  "machine": "macOS-26.5.2-arm64-arm-64bit",
+  "processor": "arm64",
+  "torch_threads": 2,
+  "requests": 48,
+  "repeats": 4,
+  "device": "cpu",
+  "attention": "torch",
+  "torch_version": "2.6.0",
+  "seed": 42,
+  "max_batch": 8,
+  "fixed_output_lengths": true,
+  "trace": [
+    {
+      "arrival_s": 0.0,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.0012664419521369445,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.015311156951916203,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 0.08199079059232035,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.12663079515424258,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.12814330401461052,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 0.1413846267435739,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.18257533932876419,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 0.19502666027710536,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.27791356498826025,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.3490215329008265,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 0.40891102994950074,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.42518862789119294,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 0.5827647603131081,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.5881557302648648,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 0.5932416645146463,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.6395241378624471,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.7049411593847604,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 0.8857519186692614,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 0.8898558349721533,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 0.9782788842014284,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.0213396812688706,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.023685058281715,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.0978403766603027,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.194501132666431,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.2184131031885739,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.268899846965298,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.2777757484061303,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.2895306742288173,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.350033624189907,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.3970027655897204,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.435196258350466,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.4441168683908632,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.4598488322526155,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.517546771719385,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.5305532345949175,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 1.6123027657827094,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.6278838074373798,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.750054459011129,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.7620070896139746,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.787185681181354,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.7948940579556067,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 1.809053832745491,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 32
+    },
+    {
+      "arrival_s": 1.8777748519082755,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 1.991827228722715,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 64
+    },
+    {
+      "arrival_s": 2.0142977997995293,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 16
+    },
+    {
+      "arrival_s": 2.049916980163425,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    },
+    {
+      "arrival_s": 2.1204017129135373,
+      "prompt": "Explain what a computer does in simple words.",
+      "max_tokens": 8
+    }
+  ],
+  "trials": [
+    {
+      "policy": "static",
+      "seconds": 6.725380542,
+      "tokens_per_second": 196.27142163281323,
+      "requests_per_second": 7.137142604829572,
+      "p50_ms": 2085.821181314286,
+      "p99_ms": 4733.5522712772845,
+      "ttft_p99_ms": 3971.7701042772846,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.09009804199999971,
+          "ttft_s": 0.02159995799999992,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.18737075140767967,
+          "ttft_s": 0.04637762640767962,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.3850319680480838,
+          "ttft_s": 0.11304846804808366,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.543986183047863,
+          "ttft_s": 0.127053766047863,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.6458225798457575,
+          "ttft_s": 0.49514295484575754,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.6310734982564261,
+          "ttft_s": 0.48043429025642626,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.49455014301174005,
+          "ttft_s": 0.3439279770117398,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.7881517379853893,
+          "ttft_s": 0.4936668209853896,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5672803840991731,
+          "ttft_s": 0.2728269250991735,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.9952922977228944,
+          "ttft_s": 0.4268077567228947,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.7814104700504991,
+          "ttft_s": 0.21294455305049897,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.3137887026712356,
+          "ttft_s": 0.43925141067123574,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.0825271541375527,
+          "ttft_s": 0.9322384451375529,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.0171127576152394,
+          "ttft_s": 0.8668285486152394,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.4438890801088067,
+          "ttft_s": 1.1465125801088067,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.5825391566868916,
+          "ttft_s": 0.9889736566868916,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.5720670024853538,
+          "ttft_s": 0.9785135434853536,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.2754564980278467,
+          "ttft_s": 0.681927623027847,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1221026447351354,
+          "ttft_s": 0.9835916027351352,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.8245083733307381,
+          "ttft_s": 0.6860247063307385,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.9133498607311292,
+          "ttft_s": 1.7633714437311294,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.8368541233396969,
+          "ttft_s": 1.686886665339697,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.7401961593335686,
+          "ttft_s": 1.5902329923335685,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.0548719837182854,
+          "ttft_s": 1.761034441718285,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.3808742827985716,
+          "ttft_s": 1.8063924907985713,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.090257986034702,
+          "ttft_s": 1.5158474030347024,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.0813843765938698,
+          "ttft_s": 1.5069782095938695,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.4464564388114267,
+          "ttft_s": 1.5663275638114262,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.557214542810093,
+          "ttft_s": 2.396441625810093,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.389710936280615,
+          "ttft_s": 2.228967561280615,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.3767062654050823,
+          "ttft_s": 2.2159681404050824,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.656016859410279,
+          "ttft_s": 2.3494827764102793,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.617826616649534,
+          "ttft_s": 2.3112971166495333,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.593177500747384,
+          "ttft_s": 2.2866587927473843,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.0343822837711825,
+          "ttft_s": 2.456892783771183,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.1844998816091366,
+          "ttft_s": 2.3023838816091367,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.3853790255626204,
+          "ttft_s": 3.0756981505626197,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.218376775044393,
+          "ttft_s": 2.908717025044393,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.5656182489888706,
+          "ttft_s": 2.953536123988871,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.506624250254509,
+          "ttft_s": 2.8945636252545084,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.3051009012172905,
+          "ttft_s": 3.0912401092172903,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.155398368386026,
+          "ttft_s": 2.941590618386025,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.130220985818646,
+          "ttft_s": 2.9164188608186463,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.039634065091724,
+          "ttft_s": 2.8258488560917243,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.061498061836574,
+          "ttft_s": 3.913730102836575,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.9910158290864626,
+          "ttft_s": 3.843252579086462,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.233467742200471,
+          "ttft_s": 3.9493409502004706,
+          "tokens": 16
+        },
+        {
+          "latency_s": 4.733552271277285,
+          "ttft_s": 3.971770104277285,
+          "tokens": 64
+        }
+      ],
+      "repeat": 0
+    },
+    {
+      "policy": "continuous",
+      "seconds": 4.986516915999999,
+      "tokens_per_second": 264.7138317659324,
+      "requests_per_second": 9.62595751876118,
+      "p50_ms": 1321.3672028386902,
+      "p99_ms": 3098.527773091723,
+      "ttft_p99_ms": 2167.470310836574,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.2822486659999992,
+          "ttft_s": 0.0222187079999987,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.28306870940767936,
+          "ttft_s": 0.039852875407680344,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.2817457048457559,
+          "ttft_s": 0.04489187084575619,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.3086751642564245,
+          "ttft_s": 0.08084258125642485,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5413711340480827,
+          "ttft_s": 0.047668384048082046,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.34276206001173826,
+          "ttft_s": 0.11027101801173878,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5346735289853886,
+          "ttft_s": 0.04338777898538915,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5048345080991741,
+          "ttft_s": 0.08112109209917406,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.9804931830478623,
+          "ttft_s": 0.0617023910478629,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.5565793721088053,
+          "ttft_s": 0.15375795510880508,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.969430464722894,
+          "ttft_s": 0.10924471472289277,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.5676913201375537,
+          "ttft_s": 0.37325527813755244,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5022776736152377,
+          "ttft_s": 0.3078472156152383,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.9283300950504998,
+          "ttft_s": 0.06363009505049888,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.9164059056868918,
+          "ttft_s": 0.05986336468689224,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.5484269847311296,
+          "ttft_s": 0.3404919437311289,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.1580292934853524,
+          "ttft_s": 0.28268037648535227,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.6981842063396968,
+          "ttft_s": 0.49416483133969713,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.9329220247182839,
+          "ttft_s": 0.49825081671828286,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.8059670333335678,
+          "ttft_s": 0.5788512423335685,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.8624427856712362,
+          "ttft_s": 0.03965999367123452,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.2658822060278467,
+          "ttft_s": 0.35015087302784664,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.1774629907985723,
+          "ttft_s": 0.2617361157985716,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.0170392508100932,
+          "ttft_s": 0.8369676258100931,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.8729208947351346,
+          "ttft_s": 0.0965455197351357,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.2129651094102787,
+          "ttft_s": 0.7900073174102786,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.3768521996495338,
+          "ttft_s": 0.9537731996495342,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.6116181530347031,
+          "ttft_s": 0.7093681110347028,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.64814754259387,
+          "ttft_s": 0.7448007095938696,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.6820825757711813,
+          "ttft_s": 0.7777621167711821,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1762890393307384,
+          "ttft_s": 0.3009758313307387,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.6451784587473828,
+          "ttft_s": 1.1724675007473842,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.5874838532806148,
+          "ttft_s": 1.3164702692806145,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.6496760984050827,
+          "ttft_s": 1.373133556405083,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.8000530675626205,
+          "ttft_s": 1.3658166085626195,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.7934206920443927,
+          "ttft_s": 1.407478942044392,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.435979396811426,
+          "ttft_s": 0.5998171048114251,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.163286498988869,
+          "ttft_s": 1.3338432489888703,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.7518713816091367,
+          "ttft_s": 1.042390797609137,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.429147042254508,
+          "ttft_s": 1.640855917254509,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.309856283200471,
+          "ttft_s": 1.9209517832004703,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.3572483108365745,
+          "ttft_s": 2.167470310836574,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.3064441200864625,
+          "ttft_s": 2.1389404120864626,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.9533259002172905,
+          "ttft_s": 1.336302900217289,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.899608618386024,
+          "ttft_s": 1.3740262013860232,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.8744334848186455,
+          "ttft_s": 1.3488560268186447,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.098527773091723,
+          "ttft_s": 1.732300564091723,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.9946885622772843,
+          "ttft_s": 1.6842554792772848,
+          "tokens": 64
+        }
+      ],
+      "repeat": 0
+    },
+    {
+      "policy": "continuous",
+      "seconds": 4.805009959000001,
+      "tokens_per_second": 274.7132703705598,
+      "requests_per_second": 9.989573468020359,
+      "p50_ms": 1189.6240783386913,
+      "p99_ms": 2916.9431900917252,
+      "ttft_p99_ms": 1983.355603836575,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.273040292000001,
+          "ttft_s": 0.021161000000001096,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.2710367934076814,
+          "ttft_s": 0.03466229340768123,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.2674414138457575,
+          "ttft_s": 0.038431079845757665,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.29360812325642627,
+          "ttft_s": 0.07319512325642563,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5193674680480829,
+          "ttft_s": 0.04537446804808276,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.31821618501174065,
+          "ttft_s": 0.09696476901173945,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5098617379853891,
+          "ttft_s": 0.03692736298538968,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.47251113409917345,
+          "ttft_s": 0.06672542609917365,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.9440329750478647,
+          "ttft_s": 0.059409100047863816,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.5201183721088061,
+          "ttft_s": 0.1312391221088074,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.9253554647228945,
+          "ttft_s": 0.09968967372289406,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.5217589041375543,
+          "ttft_s": 0.33651302913755465,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.45634454961524007,
+          "ttft_s": 0.27110513261524005,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8645213450505,
+          "ttft_s": 0.047978262050499154,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.8400153236868935,
+          "ttft_s": 0.03551811468689259,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.46526061073113034,
+          "ttft_s": 0.2739991937311306,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.0648729604853528,
+          "ttft_s": 0.2501023354853533,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.6020447073396973,
+          "ttft_s": 0.40978341533969775,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8277154837182845,
+          "ttft_s": 0.4209476917182844,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.6991352843335683,
+          "ttft_s": 0.4846792423335682,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.753055952671236,
+          "ttft_s": 0.032013077671235735,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.1531916650278475,
+          "ttft_s": 0.3009177070278479,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.0647720747985723,
+          "ttft_s": 0.21250190779857192,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.8970242928100944,
+          "ttft_s": 0.7232391678100942,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.745278019735137,
+          "ttft_s": 0.07156131173513636,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.0640009844102813,
+          "ttft_s": 0.6762790264102811,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.2260564916495351,
+          "ttft_s": 0.8335415756495355,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.4568578200347044,
+          "ttft_s": 0.6037627370347032,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.4899730435938707,
+          "ttft_s": 0.6371986265938698,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.5216505757711811,
+          "ttft_s": 0.6675687847711824,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.0136679983307406,
+          "ttft_s": 0.2560395403307396,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.4801759177473848,
+          "ttft_s": 1.0231506677473838,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.4224811452806154,
+          "ttft_s": 1.165350853280616,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.487308807405082,
+          "ttft_s": 1.2159973494050824,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.6276799015626224,
+          "ttft_s": 1.2052384425626208,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.6143911090443943,
+          "ttft_s": 1.2447136510443926,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.2551305218114255,
+          "ttft_s": 0.5024882308114265,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.9786900829888694,
+          "ttft_s": 1.170181165988872,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.567312923609137,
+          "ttft_s": 0.9101223406091385,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.2450189172545105,
+          "ttft_s": 1.467899501254509,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.124081784200472,
+          "ttft_s": 1.7361234092004718,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.1750496868365765,
+          "ttft_s": 1.983355603836575,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.1249663710864635,
+          "ttft_s": 1.9545200370864624,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.774552901217291,
+          "ttft_s": 1.1769425262172923,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.718206160386025,
+          "ttft_s": 1.2131844943860237,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.693031110818648,
+          "ttft_s": 1.1880146938186478,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.9169431900917253,
+          "ttft_s": 1.553279732091724,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.8131818132772857,
+          "ttft_s": 1.5027072302772844,
+          "tokens": 64
+        }
+      ],
+      "repeat": 1
+    },
+    {
+      "policy": "static",
+      "seconds": 7.033299584000002,
+      "tokens_per_second": 187.6786256912556,
+      "requests_per_second": 6.82467729786384,
+      "p50_ms": 2134.895869314285,
+      "p99_ms": 5041.471188277284,
+      "ttft_p99_ms": 4254.823980277283,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.0884744590000004,
+          "ttft_s": 0.021454999999999558,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.18792304340767885,
+          "ttft_s": 0.045723959407677484,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.3859950930480842,
+          "ttft_s": 0.11239467704808348,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5482305580478624,
+          "ttft_s": 0.1264003920478629,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.655990329845757,
+          "ttft_s": 0.5006685798457582,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.6412413732564275,
+          "ttft_s": 0.4859589572564289,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5047173520117383,
+          "ttft_s": 0.34945139401174075,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8016309049853909,
+          "ttft_s": 0.49919157098538847,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5807593420991708,
+          "ttft_s": 0.27835034209917353,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.0127824647228962,
+          "ttft_s": 0.4323315067228961,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.7989005120505013,
+          "ttft_s": 0.2184677200505014,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.333013452671235,
+          "ttft_s": 0.4447757446712366,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.1108414461375524,
+          "ttft_s": 0.9556628211375511,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.0454274656152407,
+          "ttft_s": 0.8902525906152405,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.4743840811088091,
+          "ttft_s": 1.169931997108808,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.6148346986868916,
+          "ttft_s": 1.0123974486868939,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.604362377485355,
+          "ttft_s": 1.0019382524853526,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.3077515820278478,
+          "ttft_s": 0.7053516240278483,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1584332287351344,
+          "ttft_s": 1.0070162287351359,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.8608389563307384,
+          "ttft_s": 0.7094484563307404,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.9561627357311302,
+          "ttft_s": 1.8027836527311294,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.8796664573396953,
+          "ttft_s": 1.7262999153396947,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.7830089093335673,
+          "ttft_s": 1.6296464093335672,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.0998574007182853,
+          "ttft_s": 1.8004473587182872,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.4299497827985697,
+          "ttft_s": 1.8458056577985715,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1393329450347025,
+          "ttft_s": 1.5552610700347032,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.130458793593867,
+          "ttft_s": 1.546392001593869,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.5043840218114255,
+          "ttft_s": 1.6057411058114255,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.670978167810091,
+          "ttft_s": 2.453096959810093,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.5034750202806144,
+          "ttft_s": 2.2856214372806143,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.490470349405083,
+          "ttft_s": 2.272621557405081,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.84003810941028,
+          "ttft_s": 2.406136859410278,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.8018479916495345,
+          "ttft_s": 2.367951116649536,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.777199167747387,
+          "ttft_s": 2.3433125427473875,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.236306700771184,
+          "ttft_s": 2.513558950771184,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.407086715609136,
+          "ttft_s": 2.3590376316091373,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.6320122765626195,
+          "ttft_s": 3.30321306756262,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.465010526044395,
+          "ttft_s": 3.136232609044395,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.8338304159888708,
+          "ttft_s": 3.1810512079888724,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.774838459254511,
+          "ttft_s": 3.1220791672545083,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.5881239012172905,
+          "ttft_s": 3.3187533592172933,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.438421535386027,
+          "ttft_s": 3.1691058273860264,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.413244235818649,
+          "ttft_s": 3.143934193818648,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.3226573980917244,
+          "ttft_s": 3.053364440091727,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.3477056448365765,
+          "ttft_s": 4.196789228836575,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.277224037086462,
+          "ttft_s": 4.126312537086463,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.52411657520047,
+          "ttft_s": 4.232399159200472,
+          "tokens": 16
+        },
+        {
+          "latency_s": 5.041471188277285,
+          "ttft_s": 4.254823980277283,
+          "tokens": 64
+        }
+      ],
+      "repeat": 1
+    },
+    {
+      "policy": "static",
+      "seconds": 7.8884200000000035,
+      "tokens_per_second": 167.33388942272336,
+      "requests_per_second": 6.084868706280849,
+      "p50_ms": 2288.223156164502,
+      "p99_ms": 5896.591396277284,
+      "ttft_p99_ms": 4955.050062277283,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.09310729100000259,
+          "ttft_s": 0.02208620800000105,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.20220741740768133,
+          "ttft_s": 0.05212962540768018,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.4088068430480831,
+          "ttft_s": 0.11880030104808625,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5776027240478641,
+          "ttft_s": 0.13280143304786662,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.6986579958457604,
+          "ttft_s": 0.5353646628457618,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.6839087062564282,
+          "ttft_s": 0.52066024825643,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5473846850117425,
+          "ttft_s": 0.38415314301174064,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8533009039853923,
+          "ttft_s": 0.5338927789853898,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.6324291750991726,
+          "ttft_s": 0.3130519670991738,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.0828768807228961,
+          "ttft_s": 0.46703292272289687,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.8689954280504999,
+          "ttft_s": 0.25316909505050234,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.420673451671238,
+          "ttft_s": 0.4794773686712368,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.206073570137555,
+          "ttft_s": 1.0446599451375533,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.140659631615243,
+          "ttft_s": 0.9792505486152407,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.5798400801088093,
+          "ttft_s": 1.2589172051088084,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.738251030686893,
+          "ttft_s": 1.1013928226868934,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.7277795434853545,
+          "ttft_s": 1.090934918485356,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.4311691650278497,
+          "ttft_s": 0.7943505400278497,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.288521227735135,
+          "ttft_s": 1.0960121027351342,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.9909267893307394,
+          "ttft_s": 0.7984468723307394,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.09501194373113,
+          "ttft_s": 1.9334484437311303,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.0185164983397,
+          "ttft_s": 1.8569637893397015,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.9218591583335716,
+          "ttft_s": 1.76031040833357,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.248147816718287,
+          "ttft_s": 1.9311114417182864,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.5874141157985733,
+          "ttft_s": 1.9764711157985708,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.296798653034706,
+          "ttft_s": 1.6859261940347032,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.2879250845938692,
+          "ttft_s": 1.6770572515938689,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.664092271811427,
+          "ttft_s": 1.736405646811427,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.764712833810094,
+          "ttft_s": 2.610067500810093,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.5972078112806187,
+          "ttft_s": 2.4425915612806186,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.584203015405084,
+          "ttft_s": 2.429591681405082,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.8663607754102784,
+          "ttft_s": 2.5631070674102787,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.828169907649535,
+          "ttft_s": 2.5249216576495357,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.803520958747388,
+          "ttft_s": 2.500282792747388,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.254941575771184,
+          "ttft_s": 2.6705288257711857,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.4097726726091366,
+          "ttft_s": 2.516008131609137,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.6180408175626226,
+          "ttft_s": 3.302585608562623,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.4510388170443953,
+          "ttft_s": 3.135604942044395,
+          "tokens": 16
+        },
+        {
+          "latency_s": 4.235365915988872,
+          "ttft_s": 3.180423290988873,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.176374375254511,
+          "ttft_s": 3.1214520422545107,
+          "tokens": 32
+        },
+        {
+          "latency_s": 5.285698567217295,
+          "ttft_s": 3.318127317217293,
+          "tokens": 64
+        },
+        {
+          "latency_s": 5.1359963683860315,
+          "ttft_s": 3.1684782013860264,
+          "tokens": 64
+        },
+        {
+          "latency_s": 5.110819276818646,
+          "ttft_s": 3.143306443818645,
+          "tokens": 64
+        },
+        {
+          "latency_s": 5.020243648091725,
+          "ttft_s": 3.0527375640917285,
+          "tokens": 64
+        },
+        {
+          "latency_s": 5.046464185836577,
+          "ttft_s": 4.8970314778365776,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.975982787086462,
+          "ttft_s": 4.826555037086461,
+          "tokens": 8
+        },
+        {
+          "latency_s": 5.255207075200474,
+          "ttft_s": 4.932637241200474,
+          "tokens": 16
+        },
+        {
+          "latency_s": 5.896591396277284,
+          "ttft_s": 4.955050062277284,
+          "tokens": 64
+        }
+      ],
+      "repeat": 2
+    },
+    {
+      "policy": "continuous",
+      "seconds": 5.683045874999998,
+      "tokens_per_second": 232.26981253252694,
+      "requests_per_second": 8.446175001182798,
+      "p50_ms": 1912.870466529906,
+      "p99_ms": 3805.2172730917205,
+      "ttft_p99_ms": 2841.194560836577,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.33864379099999553,
+          "ttft_s": 0.02740995799999979,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.319506167407674,
+          "ttft_s": 0.049742000407675846,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.31714757984575925,
+          "ttft_s": 0.07429745484575534,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.30239937325642785,
+          "ttft_s": 0.059561289256429006,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5906902590480811,
+          "ttft_s": 0.06841196804808192,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.3710928510117384,
+          "ttft_s": 0.14572531001174127,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.564839320985385,
+          "ttft_s": 0.07279498698538589,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.5367992170991727,
+          "ttft_s": 0.1301225500991734,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.0537831410478589,
+          "ttft_s": 0.08244218304785988,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.6298741631088021,
+          "ttft_s": 0.2033737881088058,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.2831561727228902,
+          "ttft_s": 0.16593792272288965,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.8962879871375549,
+          "ttft_s": 0.48332144513755537,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8308741736152427,
+          "ttft_s": 0.4179250486152384,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.2173825950504948,
+          "ttft_s": 0.07024272005050136,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.2820806976868866,
+          "ttft_s": 0.0886008226868853,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.8948697767311273,
+          "ttft_s": 0.6365796937311288,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.5885005014853562,
+          "ttft_s": 0.3155797514853589,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.0839117063396984,
+          "ttft_s": 0.8432929563396954,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.3944688167182875,
+          "ttft_s": 0.8654961077182861,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.275316117333567,
+          "ttft_s": 1.0244685753335645,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.3414978266712367,
+          "ttft_s": 0.07061528567123787,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.7940847900278456,
+          "ttft_s": 0.6828928310278428,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.7056661567985714,
+          "ttft_s": 0.5944797407985689,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.6100230838100913,
+          "ttft_s": 1.376520041810096,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.4486643107351327,
+          "ttft_s": 0.12751639473513166,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.821053150410279,
+          "ttft_s": 1.3295614424102808,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.0046877826495333,
+          "ttft_s": 1.5507781996495353,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.2157575690347002,
+          "ttft_s": 1.1750713610347034,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.253923626593867,
+          "ttft_s": 1.2163297925938679,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.287201950771184,
+          "ttft_s": 1.2592259507711816,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.8032534973307364,
+          "ttft_s": 0.6196085393307342,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.2734135427473774,
+          "ttft_s": 1.7830508337473816,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.2157196862806074,
+          "ttft_s": 1.945329728280612,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.258631431405078,
+          "ttft_s": 1.9777369734050794,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.426453858562624,
+          "ttft_s": 1.971859858562624,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.423036150044389,
+          "ttft_s": 2.019043275044389,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.044486771811428,
+          "ttft_s": 1.0005658968114233,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.8360002069888637,
+          "ttft_s": 1.9614742909888676,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.4245027976091365,
+          "ttft_s": 1.6169518396091362,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.1039832922545045,
+          "ttft_s": 2.2691533332545077,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.011486825200471,
+          "ttft_s": 2.5949773252004675,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.0422946858365734,
+          "ttft_s": 2.841194560836577,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.992911245086461,
+          "ttft_s": 2.8155769950864595,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.6458604002172876,
+          "ttft_s": 1.9421501922172908,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.614319785386023,
+          "ttft_s": 2.0047122013860275,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.5891453188186446,
+          "ttft_s": 1.979542568818644,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.8052172730917206,
+          "ttft_s": 2.3636144390917195,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.6912177712772873,
+          "ttft_s": 2.2940063962772896,
+          "tokens": 64
+        }
+      ],
+      "repeat": 2
+    },
+    {
+      "policy": "continuous",
+      "seconds": 6.858574249999997,
+      "tokens_per_second": 192.45982501392336,
+      "requests_per_second": 6.998539091415395,
+      "p50_ms": 3000.817161838686,
+      "p99_ms": 4969.322648091719,
+      "ttft_p99_ms": 3900.4222450864604,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.43213091699999495,
+          "ttft_s": 0.023332416999998884,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.444475834407676,
+          "ttft_s": 0.02920095940767453,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.5403647048457572,
+          "ttft_s": 0.0386336628457542,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.6224740402564208,
+          "ttft_s": 0.09558820625642284,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.0626650510480786,
+          "ttft_s": 0.053297510048082586,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.8664416850117362,
+          "ttft_s": 0.33661406001173333,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.090502362985383,
+          "ttft_s": 0.03713073798538602,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.6964240500991679,
+          "ttft_s": 0.37732438409916824,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.3510134330478607,
+          "ttft_s": 0.06733168304785409,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.9271008721088023,
+          "ttft_s": 0.6868753721088012,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.450060756722891,
+          "ttft_s": 0.26724625672289193,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.0582638201375545,
+          "ttft_s": 1.7515037791375505,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.9928504656152413,
+          "ttft_s": 1.6862880906152355,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.5086409280504967,
+          "ttft_s": 0.4164657200504962,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.538641239686889,
+          "ttft_s": 0.6035629066868893,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1875045687311285,
+          "ttft_s": 1.922161568731127,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.8225712524853535,
+          "ttft_s": 1.5116838774853534,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.3660712483396935,
+          "ttft_s": 2.1394644983396987,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.6083335667182865,
+          "ttft_s": 2.1258285247182798,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.4817086173335667,
+          "ttft_s": 2.2460047003335646,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.53705370267123,
+          "ttft_s": 0.054407243671235506,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.9605402900278435,
+          "ttft_s": 1.8699309150278438,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.872132073798568,
+          "ttft_s": 1.7815276157985664,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.709867083810096,
+          "ttft_s": 2.5327450008100953,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.536921686735134,
+          "ttft_s": 0.7250553527351329,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.883540526410279,
+          "ttft_s": 2.4857844844102814,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.0410940336495287,
+          "ttft_s": 2.6470861996495287,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.250900486034702,
+          "ttft_s": 2.3858644860346985,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.285835543593869,
+          "ttft_s": 2.420852418593867,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.3175000757711857,
+          "ttft_s": 2.452627242771186,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.8316485813307324,
+          "ttft_s": 1.7860747893307334,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.2999372507473765,
+          "ttft_s": 2.84313116774738,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.2422425202806124,
+          "ttft_s": 2.9811911862806113,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.2807856824050816,
+          "ttft_s": 3.011529307405077,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.424380359562619,
+          "ttft_s": 3.00174798456262,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.4128963170443853,
+          "ttft_s": 3.0386697340443902,
+          "tokens": 16
+        },
+        {
+          "latency_s": 4.0549949798114255,
+          "ttft_s": 2.269717771811422,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.8676892909888636,
+          "ttft_s": 2.9900273329888662,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.465059756609136,
+          "ttft_s": 2.70393725660913,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.153727542254508,
+          "ttft_s": 3.265677917254507,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.12333332520047,
+          "ttft_s": 3.6290327002004688,
+          "tokens": 16
+        },
+        {
+          "latency_s": 4.180204936836574,
+          "ttft_s": 3.882160769836574,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.130871870086466,
+          "ttft_s": 3.9004222450864603,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.7861974012172865,
+          "ttft_s": 2.9734840262172924,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.763631493386022,
+          "ttft_s": 3.0288465773860267,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.738456526818645,
+          "ttft_s": 3.0036766938186403,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.969322648091719,
+          "ttft_s": 3.3524185650917175,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.866745688277284,
+          "ttft_s": 3.3053462292772835,
+          "tokens": 64
+        }
+      ],
+      "repeat": 3
+    },
+    {
+      "policy": "static",
+      "seconds": 7.376960458999996,
+      "tokens_per_second": 178.935485331168,
+      "requests_per_second": 6.506744921133381,
+      "p50_ms": 2738.031369314289,
+      "p99_ms": 5385.1320632772895,
+      "ttft_p99_ms": 4566.066771277285,
+      "max_observed_batch": 8,
+      "requests": [
+        {
+          "latency_s": 0.10216425000000129,
+          "ttft_s": 0.028294834000000435,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.3144061264076754,
+          "ttft_s": 0.0668467934076773,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.6126232600480819,
+          "ttft_s": 0.13351480204808297,
+          "tokens": 16
+        },
+        {
+          "latency_s": 0.816962267047856,
+          "ttft_s": 0.14750205804785566,
+          "tokens": 32
+        },
+        {
+          "latency_s": 0.9857824138457545,
+          "ttft_s": 0.7910311638457586,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.971039290256428,
+          "ttft_s": 0.7763472482564282,
+          "tokens": 8
+        },
+        {
+          "latency_s": 0.8345212690117378,
+          "ttft_s": 0.6398433520117379,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.244811737985387,
+          "ttft_s": 0.7895768629853848,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.023942551099168,
+          "ttft_s": 0.5687432590991719,
+          "tokens": 16
+        },
+        {
+          "latency_s": 1.49844188172289,
+          "ttft_s": 0.7227225067228886,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.284561179050499,
+          "ttft_s": 0.5088616370505008,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.896913285671232,
+          "ttft_s": 0.735165577671232,
+          "tokens": 64
+        },
+        {
+          "latency_s": 1.6784411961375554,
+          "ttft_s": 1.5237781541375526,
+          "tokens": 8
+        },
+        {
+          "latency_s": 1.6130273406152398,
+          "ttft_s": 1.4583685906152368,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.0456165391088064,
+          "ttft_s": 1.7380216221088034,
+          "tokens": 16
+        },
+        {
+          "latency_s": 2.191979156686891,
+          "ttft_s": 1.5805041566868852,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.1815083774853576,
+          "ttft_s": 1.5700529194853559,
+          "tokens": 32
+        },
+        {
+          "latency_s": 1.8848982490278487,
+          "ttft_s": 1.273469040027848,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.7557875197351365,
+          "ttft_s": 1.5751296867351314,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.458193456330733,
+          "ttft_s": 1.2775645813307364,
+          "tokens": 64
+        },
+        {
+          "latency_s": 2.55729611073113,
+          "ttft_s": 2.4074807777311307,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.4808010823396955,
+          "ttft_s": 2.330999790339696,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.384144451333569,
+          "ttft_s": 2.2343473673335694,
+          "tokens": 8
+        },
+        {
+          "latency_s": 2.708653858718286,
+          "ttft_s": 2.4051461087182844,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.033084282798569,
+          "ttft_s": 2.4504866997985673,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.7424683200347033,
+          "ttft_s": 2.1599640280347003,
+          "tokens": 32
+        },
+        {
+          "latency_s": 2.7335944185938743,
+          "ttft_s": 2.1510955435938683,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.1078143968114276,
+          "ttft_s": 2.2104431468114285,
+          "tokens": 64
+        },
+        {
+          "latency_s": 3.2010805428100966,
+          "ttft_s": 3.0547745848100973,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.033576478280608,
+          "ttft_s": 2.8873018122806116,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.0205717244050803,
+          "ttft_s": 2.874302140405078,
+          "tokens": 8
+        },
+        {
+          "latency_s": 3.2980454014102776,
+          "ttft_s": 3.007816109410278,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.259855075649533,
+          "ttft_s": 2.969630950649531,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.2352061267473786,
+          "ttft_s": 2.9449930427473845,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.6671326177711876,
+          "ttft_s": 3.1152363257711855,
+          "tokens": 32
+        },
+        {
+          "latency_s": 3.8271921736091343,
+          "ttft_s": 2.9607180906091344,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.021879401562622,
+          "ttft_s": 3.722243317562622,
+          "tokens": 16
+        },
+        {
+          "latency_s": 3.8548766510443926,
+          "ttft_s": 3.5552641510443905,
+          "tokens": 16
+        },
+        {
+          "latency_s": 4.191928999988868,
+          "ttft_s": 3.600081665988867,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.132935334254512,
+          "ttft_s": 3.541111167254506,
+          "tokens": 32
+        },
+        {
+          "latency_s": 4.899623943217293,
+          "ttft_s": 3.7377826512172945,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.749921452386026,
+          "ttft_s": 3.588136952386023,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.724744193818644,
+          "ttft_s": 3.56296565281864,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.634157398091723,
+          "ttft_s": 3.47239681509172,
+          "tokens": 64
+        },
+        {
+          "latency_s": 4.6759808538365775,
+          "ttft_s": 4.5080248948365735,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.6055004960864565,
+          "ttft_s": 4.437547454086456,
+          "tokens": 8
+        },
+        {
+          "latency_s": 4.857883742200471,
+          "ttft_s": 4.543635575200469,
+          "tokens": 16
+        },
+        {
+          "latency_s": 5.38513206327729,
+          "ttft_s": 4.566066771277285,
+          "tokens": 64
+        }
+      ],
+      "repeat": 3
+    }
+  ],
+  "summary": {
+    "static": {
+      "tokens_per_second": 183.3070555112118,
+      "p99_ms": 5213.301625777287,
+      "ttft_p99_ms": 4410.445375777284,
+      "spread": {
+        "tokens_per_second": {
+          "median": 183.3070555112118,
+          "mean": 182.55485551949005,
+          "stdev": 12.371672700074091,
+          "min": 167.33388942272336,
+          "max": 196.27142163281323
+        },
+        "p99_ms": {
+          "median": 5213.301625777287,
+          "mean": 5264.186729777286,
+          "stdev": 498.57750212634255,
+          "min": 4733.5522712772845,
+          "max": 5896.591396277284
+        },
+        "ttft_p99_ms": {
+          "median": 4410.445375777284,
+          "mean": 4436.927729527284,
+          "stdev": 422.16151554333464,
+          "min": 3971.7701042772846,
+          "max": 4955.050062277283
+        }
+      }
+    },
+    "continuous": {
+      "tokens_per_second": 248.49182214922968,
+      "p99_ms": 3451.8725230917216,
+      "ttft_p99_ms": 2504.3324358365753,
+      "spread": {
+        "tokens_per_second": {
+          "median": 248.49182214922968,
+          "mean": 241.03918492073564,
+          "stdev": 37.10924878052875,
+          "min": 192.45982501392336,
+          "max": 274.7132703705598
+        },
+        "p99_ms": {
+          "median": 3451.8725230917216,
+          "mean": 3697.502721091722,
+          "stdev": 930.4429986469484,
+          "min": 2916.9431900917252,
+          "max": 4969.322648091719
+        },
+        "ttft_p99_ms": {
+          "median": 2504.3324358365753,
+          "mean": 2723.1106801490464,
+          "stdev": 867.1755140979978,
+          "min": 1983.355603836575,
+          "max": 3900.4222450864604
+        }
+      }
+    },
+    "throughput_change_pct": 35.56042425984576,
+    "p99_reduction_pct": 33.787208742654364,
+    "per_repeat_throughput_change_pct": {
+      "median": 36.83875333085986,
+      "mean": 31.902506386837302,
+      "stdev": 16.916971030143287,
+      "min": 7.558221141952348,
+      "max": 46.37429774367714
+    },
+    "per_repeat_p99_reduction_pct": {
+      "median": 35.004341532793504,
+      "mean": 29.967787309807992,
+      "stdev": 15.212395560984872,
+      "min": 7.721433946273859,
+      "max": 42.1410322273711
+    }
+  }
+}

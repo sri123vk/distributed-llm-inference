@@ -1,0 +1,5 @@
+.venv
+.run
+models
+**/__pycache__
+.git

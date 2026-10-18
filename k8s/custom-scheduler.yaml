@@ -1,0 +1,94 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: inference-scheduler
+  namespace: llm-inference
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: inference-scheduler
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: system:kube-scheduler
+subjects:
+  - kind: ServiceAccount
+    name: inference-scheduler
+    namespace: llm-inference
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: inference-volume-scheduler
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: system:volume-scheduler
+subjects:
+  - kind: ServiceAccount
+    name: inference-scheduler
+    namespace: llm-inference
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: inference-scheduler-auth
+  namespace: kube-system
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: extension-apiserver-authentication-reader
+subjects:
+  - kind: ServiceAccount
+    name: inference-scheduler
+    namespace: llm-inference
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: inference-scheduler-config
+  namespace: llm-inference
+data:
+  scheduler.yaml: |
+    apiVersion: kubescheduler.config.k8s.io/v1
+    kind: KubeSchedulerConfiguration
+    leaderElection:
+      leaderElect: false
+    profiles:
+      - schedulerName: inference-scheduler
+    extenders:
+      - urlPrefix: http://gpu-scheduler-extender.llm-inference.svc:8002
+        filterVerb: filter
+        prioritizeVerb: prioritize
+        weight: 10
+        httpTimeout: 3s
+        nodeCacheCapable: false
+        ignorable: false
+        managedResources:
+          - name: nvidia.com/gpu
+            ignoredByScheduler: false
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inference-scheduler
+  namespace: llm-inference
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: inference-scheduler}
+  template:
+    metadata:
+      labels: {app: inference-scheduler}
+    spec:
+      serviceAccountName: inference-scheduler
+      containers:
+        - name: scheduler
+          image: registry.k8s.io/kube-scheduler:REPLACE_KUBERNETES_VERSION
+          command: [kube-scheduler, --config=/etc/inference/scheduler.yaml, --v=2]
+          volumeMounts:
+            - {name: config, mountPath: /etc/inference, readOnly: true}
+      volumes:
+        - name: config
+          configMap: {name: inference-scheduler-config}

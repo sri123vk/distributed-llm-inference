@@ -1,0 +1,33 @@
+# Apply after platform.yaml, custom-scheduler.yaml and gpu-telemetry.yaml.
+# This replaces the CPU worker StatefulSet with two exclusive GPU workers.
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: inference-worker
+  namespace: llm-inference
+spec:
+  serviceName: inference-worker
+  replicas: 2
+  selector:
+    matchLabels: {app: inference-worker}
+  template:
+    metadata:
+      labels: {app: inference-worker}
+      annotations:
+        inference.example.com/vram-mib: "2000"
+    spec:
+      schedulerName: inference-scheduler
+      runtimeClassName: nvidia
+      containers:
+        - name: worker
+          image: REPLACE_WITH_REGISTRY/inference-worker-cuda:latest
+          ports: [{containerPort: 8001}]
+          startupProbe:
+            httpGet: {path: /healthz, port: 8001}
+            periodSeconds: 5
+            failureThreshold: 120
+          readinessProbe:
+            httpGet: {path: /healthz, port: 8001}
+          resources:
+            requests: {cpu: "1", memory: 2Gi}
+            limits: {memory: 4Gi, nvidia.com/gpu: "1"}
